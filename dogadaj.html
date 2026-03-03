@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Ohoho</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/572a5d15ca.js" crossorigin="anonymous"></script>
+
+</head> 
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <div class="logo">
+        <a href="festival.html">
+            <img src="img/logo_pravi.png" alt="logo" id="logo">
+        </a>
+        </div>
+
+        <ul class="nav-linkovi" id="linkovi">
+          <li><a href="arhiva.html">Događaji</a></li>
+          <li><a href="program.html">Program</a></li>
+          <li><a href="tema.html">Tema</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <h2 class="naslov-dogadaj">OHOHO 2025.</h2>
+
+    <div class="dogadaj-naslovnica">
+      <div class="naslovnica-dio">
+        <picture class="naslovnica">
+          <source 
+            media="(max-width: 600px)" 
+            srcset="img/dogadaj_hp.webp">
+          <img src="img/home.webp" alt="OHOHO festival">
+        </picture>
+        </div>
+      </div>
+      
+
+    <section class="arhiva-dogadaja">
+      <div class="arhiva-svi">
+      <div class="arhiva-tekst">
+        <p class="arhiva-uvodno">
+          Godine 2025. su organiziratori odlučili ponuditi slobodnu temu, stoga je upravo OHOHO festival 2025. obilježen velikim opusom radova. 
+          Umjetnici uvijek kažu da uživaju dok im je data puna sloboda, bez granica, osim ograničenje od 8 stranica stripa, ali i to im je 
+          dovoljno da na papir prenesu svoju kreativnost u najboljem mogućem svjetlu. Ovogodišnji odaziv na festival je veći nego ikada, ljudi su 
+          željni neovisne umjetnosti koja je stvarna slika misli umjetnika, stoga je podrška ove godine bila znatno veća. U svijetu gdje je AI umjetnost toliko 
+          nametnuta i skoro nemoguća za razaznati od ljudske umjetnosti, ovakve manifestacije su savršena prilika za doživjeti umjetnost na surov i ispravan način.
+          </p> <br>
+      </div>
+      
+      <div class="arhiva-slika">
+        <img src="img/2022/dogadaj10.webp" alt="ljudi">
+        <img src="img/2022/dogadaj11.webp" alt="ljudi">
+        <img src="img/2022/dogadaj12.webp" alt="ljudi">
+        <img src="img/2022/dogadaj2.webp" alt="ljudi">
+        <img src="img/2022/dogadaj3.webp" alt="ljudi">
+        <img src="img/2022/dogadaj4.webp" alt="ljudi">
+        <img src="img/2022/dogadaj5.webp" alt="ljudi">
+        <img src="img/2022/dogadaj6.webp" alt="ljudi">
+        <img src="img/2022/dogadaj7.webp" alt="ljudi">
+        <img src="img/2022/dogadaj8.webp" alt="ljudi">
+        <img src="img/2022/dogadaj9.webp" alt="ljudi">
+        <img src="img/2022/otkrij-slika.webp" alt="ljudi">
+      </div>
+
+    </div>
+  </section>
+
+    <footer class="site-footer">
+      <div class="footer-dio">
+
+        <div class="footer-linkovi">
+          <a href="festival.html">
+            <img src="img/logo_pravi.png" alt="logo" id="logo">
+          </a>
+          <a href="arhiva.html">Događaji</a>
+          <a href="program.html">Program</a>
+          <a href="tema.html">Tema</a>
+          <a href="kontakt.html">Kontakt</a>
+        </div>
+
+        <div class="footer-social">
+            <a href="https://www.facebook.com/ohoho.festival/?locale=hr_HR" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-facebook"></i> OHOHO Festival<br>
+            </a>
+            <a href="mailto:ohoho.festival@gmail.com" target="_blank" rel="noopener noreferrer">
+              <i class="fa-solid fa-envelope"></i> ohoho.festival@gmail.com<br>
+            </a>
+            <a href="https://www.instagram.com/ohohofestival/" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-instagram"></i> ohohofestival
+            </a>
+            <a href="kontakt.html#karta" class="karta-poveznica"><i class="fa-solid fa-location-dot lokacija"></i> Autonomni Kulturni Centar Medika,<br> Pierottijeva ul. 11, 10000, Zagreb</a>
+        </div>
+      </div>
+        <div class="footer-copy">
+          <p>© 2026 OHOHO Festival. Sva prava pridržana.</p>
+        </div>
+    </footer>
+    <script>
+      const hamburger = document.querySelector('.hamburger');
+      const navLinks = document.querySelector('.nav-linkovi');
+
+      hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+      });
+    </script>
+  </body>
+</html>
+

@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Ohoho</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/572a5d15ca.js" crossorigin="anonymous"></script>
+
+</head> 
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <div class="logo">
+        <a href="festival.html">
+          <img src="img/logo_pravi.png" alt="logo" id="logo">
+        </a>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-linkovi" id="nav-linkovi">
+          <li><a href="arhiva.html">Događaji</a></li>
+          <li><a href="program.html">Program</a></li>
+          <li><a href="tema.html">Tema</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1 class="naslov-dogadaj">Događaji<br></h1>
+ 
+      
+    </div>
+
+    <section class="arhiva-dogadaja">
+      <div class="arhiva-svi">
+        <div class="arhiva-tekst">
+          <p class="arhiva-uvodno">
+            Tradicija godišnjeg okupljanja i upoznavanja umjetnika s naših prostora, a i šire, traje već 13 godina, 
+          Medika je već od 2013. dom na par dana svima onima koji žele da su vidljivi svijetu. Svake godine umjetnici 
+          ukrašavaju Mediku u nekom novom stilu i svake godine na neki novi način stvaraju panele svojih stripova. 
+          <br><br>Gledajući na arhivu događaja, nije teško za zaključiti da umjetnici vide svijet na drugačiji način i kroz festival 
+          žele ostatku svijeta približiti svoja viđenja i misli. Tema festivala je svake godine zanimljiva toliko da su prijave radova svake 
+          godine u sve većem broju, a organizatori festivala ne mogu biti iznenađeniji količinom neviđenih ideja i individualnosti među umjetnicima.
+          </p> <br>
+        </div>
+        
+        <div class="arhiva-vijesti">
+        <a href="dogadaj.html" class="arhiva-card">
+          <picture>
+          <source 
+            media="(max-width: 600px)" 
+            srcset="img/home.webp">
+          <img src="img/dogadaj_hp.webp" alt="OHOHO festival">
+        </picture>
+          <div class="arhiva-info">
+            <h3>OHOHO 2025</h3>
+            <p>Sve ono stvoreno na temu tijela</p>
+          </div>
+        </a>
+
+        <a href="dogadaj.html" class="arhiva-card">
+          <picture>
+          <source 
+            media="(max-width: 600px)" 
+            srcset="img/2022.webp">
+          <img src="img/2022_manja.webp" alt="OHOHO festival">
+        </picture>
+          <div class="arhiva-info">
+            <h3>OHOHO 2022</h3>
+            <p>Godina svemira i planeta</p>
+          </div>
+        </a>
+
+        <a href="dogadaj.html" class="arhiva-card">
+          <picture>
+            <source 
+              media="(max-width: 600px)" 
+              srcset="img/pravi_2019.webp">
+            <img src="img/2019_manji.webp" alt="OHOHO festival">
+          </picture>
+          <div class="arhiva-info">
+            <h3>OHOHO 2019</h3>
+            <p>Godina ljudi i društva</p>
+          </div>
+        </a>
+        </div>
+
+    </div>
+  </section>
+
+    <footer class="site-footer">
+      <a href="festival.html">
+            <img src="img/logo_pravi.png" alt="logo" id="logo">
+          </a>
+      <div class="footer-dio">
+        <div class="footer-linkovi">
+          
+          <a href="arhiva.html">Događaji</a>
+          <a href="program.html">Program</a>
+          <a href="tema.html">Tema</a>
+          <a href="kontakt.html">Kontakt</a>
+        </div>
+
+         <div class="footer-social">
+            <a href="https://www.facebook.com/ohoho.festival/?locale=hr_HR" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-facebook"></i> OHOHO Festival<br>
+            </a>
+            <a href="mailto:ohoho.festival@gmail.com" target="_blank" rel="noopener noreferrer">
+              <i class="fa-solid fa-envelope"></i> ohoho.festival@gmail.com<br>
+            </a>
+            <a href="https://www.instagram.com/ohohofestival/" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-instagram"></i> ohohofestival
+            </a>
+            <a href="kontakt.html#karta" class="karta-poveznica"><i class="fa-solid fa-location-dot lokacija"></i> Autonomni Kulturni Centar Medika,<br> Pierottijeva ul. 11, 10000, Zagreb</a>
+        </div>
+      </div>
+        <div class="footer-copy">
+          <p>© 2026 OHOHO Festival. Sva prava pridržana.</p>
+        </div>
+    </footer>
+
+    <script>
+      const hamburger = document.querySelector('.hamburger');
+      const navLinks = document.querySelector('.nav-linkovi');
+
+      hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+      });
+    </script>
+  </body>
+</html>
+

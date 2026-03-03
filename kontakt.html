@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Ohoho</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/572a5d15ca.js" crossorigin="anonymous"></script>
+</head> 
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <div class="logo">
+        <a href="festival.html">
+          <img src="img/logo_pravi.png" alt="logo" id="logo">
+        </a>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-linkovi" id="nav-linkovi">
+          <li><a href="arhiva.html">Događaji</a></li>
+          <li><a href="program.html">Program</a></li>
+          <li><a href="tema.html">Tema</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="contact">
+        <div class="contact-dio">
+            <div class="contact-info">
+                <h1>Ovdje smo, kontaktiraj nas!</h1>
+                <p>
+                    Festival te zanima, ali imaš nekih neodgovorenih pitanja ili ti je nejasno da želiš biti
+                    dio ovog festivala?
+                    Slobodno nam se javi putem forme lijeve ili naših kontakata napisanih ispod i rado ćemo ti povratno odgovoriti!
+                </p>
+
+                <p class="contact-details">
+                    <a href="https://www.facebook.com/ohoho.festival/?locale=hr_HR" target="_blank" rel="noopener noreferrer">
+                      <i class="fa-brands fa-facebook"></i> OHOHO Festival<br>
+                    </a>
+                    <a href="mailto:ohoho.festival@gmail.com" target="_blank" rel="noopener noreferrer">
+                      <i class="fa-solid fa-envelope"></i> ohoho.festival@gmail.com<br>
+                    </a>
+                    <a href="https://www.instagram.com/ohohofestival/" target="_blank" rel="noopener noreferrer">
+                      <i class="fa-brands fa-instagram"></i> ohohofestival<br>
+                    </a>
+                    <a href="#karta" class="karta-poveznica"><i class="fa-solid fa-location-dot lokacija"></i> Autonomni Kulturni Centar Medika,<br> Pierottijeva ul. 11, 10000, Zagreb</a>
+                </p>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <label>
+                    Ime i prezime*
+                    <input type="text" placeholder="Tvoje ime i prezime" required>
+                    </label>
+
+                    <label>
+                    E-mail*
+                    <input type="email" placeholder="Tvoj e-mail" required>
+                    </label>
+
+                    <label>
+                    Poruka*
+                    <textarea placeholder="Tvoja poruka" rows="5" required></textarea>
+                    </label>
+
+                    <button type="submit">Pošalji</button>
+                </form>
+            </div>
+        </div>
+        <div class="details-dio">
+           <picture class="medika_img">
+            <source 
+              media="(max-width: 500px)" 
+              srcset="img/medika_manja.webp">
+
+            <img src="img/medika.webp" alt="OHOHO festival">
+          </picture>
+          <div class="maps" id="karta">
+                  <iframe style="filter: invert(90%)" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11125.088549680513!2d15.952111536822875!3d45.80580797270864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d6ef81c82949%3A0x35a0f622f00c5c35!2sAutonomni%20Kulturni%20Centar%20Medika!5e0!3m2!1shr!2shr!4v1768439853169!5m2!1shr!2shr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          </div>
+        </div> 
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-dio">
+
+        <div class="footer-linkovi">
+          <a href="festival.html">
+            <img src="img/logo_pravi.png" alt="logo" id="logo">
+          </a>
+          <a href="arhiva.html">Događaji</a>
+          <a href="program.html">Program</a>
+          <a href="tema.html">Tema</a>
+          <a href="kontakt.html">Kontakt</a>
+        </div>
+
+        <div class="footer-social">
+            <a href="https://www.facebook.com/ohoho.festival/?locale=hr_HR" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-facebook"></i> OHOHO Festival<br>
+            </a>
+            <a href="mailto:ohoho.festival@gmail.com" target="_blank" rel="noopener noreferrer">
+              <i class="fa-solid fa-envelope"></i> ohoho.festival@gmail.com<br>
+            </a>
+            <a href="https://www.instagram.com/ohohofestival/" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-instagram"></i> ohohofestival
+            </a>
+            <a href="kontakt.html#karta" class="karta-poveznica"><i class="fa-solid fa-location-dot lokacija"></i> Autonomni Kulturni Centar Medika,<br> Pierottijeva ul. 11, 10000, Zagreb</a>
+        </div>
+      </div>
+        <div class="footer-copy">
+          <p>© 2026 OHOHO Festival. Sva prava pridržana.</p>
+        </div>
+    </footer>
+    <script>
+      const hamburger = document.querySelector('.hamburger');
+      const navLinks = document.querySelector('.nav-linkovi');
+
+      hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+      });
+    </script>
+  </body>
+</html>
+

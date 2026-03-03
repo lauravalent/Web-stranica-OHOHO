@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Ohoho</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/572a5d15ca.js" crossorigin="anonymous"></script>
+
+  </head> 
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <div class="logo">
+        <a href="festival.html">
+          <img src="img/logo_pravi.png" alt="logo" id="logo">
+        </a>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-linkovi" id="nav-linkovi">
+          <li><a href="arhiva.html">Događaji</a></li>
+          <li><a href="program.html">Program</a></li>
+          <li><a href="tema.html">Tema</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    
+
+
+    <div class="hero">
+      <picture class="hero-image">
+        <source 
+          media="(max-width: 500px)" 
+          srcset="img/hp_mobile.webp">
+        <source 
+          media="(min-width: 501px)" 
+          srcset="img/hp_manji.webp">
+
+        <img src="img/hp.webp" alt="OHOHO festival">
+      </picture>
+      <div class="hero-text-ohoho">
+        <h1 class="animate-hero animate-left">OHOHO<br>FESTIVAL</h1>
+        <h2 class="animate-date animate-left">Zagreb 18.-21.9.</h2>
+      </div>
+      
+    </div>
+
+    <div class="quote-klasa">
+      <div class="row">
+        <a href="#section-istrazi" class="rijeci">Otkrij</a>
+        <a href="#section-voli" class="rijeci">Voli</a>
+        <a href="#section-upoznaj" class="rijeci">Upoznaj</a>
+      </div>
+      <div class="row">
+        <a href="#section-stvaraj" class="rijeci2">Stvaraj</a>
+        <a href="#istrazi-section" class="rijeci2">Istraži</a>
+      </div>
+    </div>
+
+    <section class="uvod" id="section-istrazi">
+      <div class="uvod-dio">
+        <img src="img/zena_mural_prava.webp" id="mural-girl" class="animate-left" alt="mural">
+        <p class="uvod-paragraph animate-right">
+          OHOHO! festival je prostor za kreativnost, stvaralaštvo, diskusiju i razmjenu 
+          suvremene strip i ulične umjetnosti, <span class="kljucno">otkrij</span> umjetnike i umjetnice koji stvaraju underground 
+          i alternativnu umjetnost prema DIY poetici. Fokus festivala je na recentnoj uličnoj 
+          umjetnosti i nezavisnom stripu, a festivalski eventi – crtačke/muralističke akcije, 
+          radionice, rezidencija, izložba i razgovori – usmjereni su svima zainteresiranima za 
+          medij nezavisnog plakata, grafike, ilustracije i stripa.
+        </p>
+      </div>
+    </section>
+    <br id="section-voli">
+    <section class="quote">
+      <div class="quote-dio">
+        <p class="animate-up">"Ovaj dugogodišnji program ima za cilj poticanje suradnje i angažmana
+           među autorima i ilustratorima stripova s ​​ciljem poticanja i njege kreativnosti, kao i osnaživanja umjetnica i njihovih stripova kroz rezidencije, 
+           izložbe i konferencije, a misao vodilja je uvijek '<span class="kljucno">Voli</span> i budi voljen', ali u umjetničkom okruženju."</p>
+      </div>
+    </section>
+
+    <br id="section-upoznaj">
+    <section class="upoznaj" >
+      <div class="upoznaj-dio">
+        <img src="img/svi_ko_jedan.webp" alt="slika_ljudi" class="animate-left">
+        <div class="upoznaj-text animate-right">
+          <p>Na festivalu ćete naići na one ljudi koji su nekada neshvaćeni od strane društva, ali upravo se takve osobe
+            najbolje razumiju i omogućeno im je da budu svoji. Stoga <span class="kljucno">upoznaj</span> ljude sličnih interesa i usputno bolje <span class="kljucno">upoznaj</span> samoga sebe.
+          </p>
+        </div>
+      </div>
+ 
+    </section>
+
+    <br id="section-stvaraj">
+    <section class="stvaraj">
+      <div class="stvaraj-dio">
+        <img src="img/stvaraj.webp" alt="garfit" id="grafit-boja" class="animate-left">
+        <img src="img/stvaraj-cb.webp" alt="grafit" id="grafit-crno-bijelo" class="animate-right">
+        <p id="gore" class="animate-left"><span class="kljucno">Stvaraj</span> ondje gdje</p>
+        <p id="dole" class="animate-right">će tvoj trag biti prihvaćen!</p>
+      </div>
+      
+    </section>
+
+    <br id="istrazi-section">
+    <section class="istrazi animate-left">
+      <div class="istrazi-dio">
+        <p>
+            Sada je red na tebi, budi i ti dio sljedećeg OHOHO! festivala i to u ulozi umjetnika i kreativca, 
+            obogati festival svojim bojama i učini ga posebnijim. <a href="tema.html" class="poveznica-tema">Istraži</a> temu koja će 
+            obilježiti sljedeći festival.
+          </p>
+      </div>
+    </section>
+
+  
+
+
+<footer class="site-footer">
+  <div class="footer-dio">
+
+    <div class="footer-linkovi">
+      <a href="festival.html">
+        <img src="img/logo_pravi.png" alt="logo" id="logo">
+      </a>
+      <a href="arhiva.html">Događaji</a>
+      <a href="program.html">Program</a>
+      <a href="tema.html">Tema</a>
+      <a href="kontakt.html">Kontakt</a>
+    </div>
+
+    
+
+    <div class="footer-social">
+            <a href="https://www.facebook.com/ohoho.festival/?locale=hr_HR" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-facebook"></i> OHOHO Festival<br>
+            </a>
+            <a href="mailto:ohoho.festival@gmail.com" target="_blank" rel="noopener noreferrer">
+              <i class="fa-solid fa-envelope"></i> ohoho.festival@gmail.com<br>
+            </a>
+            <a href="https://www.instagram.com/ohohofestival/" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-instagram"></i> ohohofestival
+            </a>
+            <a href="kontakt.html#karta" class="karta-poveznica"><i class="fa-solid fa-location-dot lokacija"></i> Autonomni Kulturni Centar Medika,<br> Pierottijeva ul. 11, 10000, Zagreb</a>
+        </div>
+  </div>
+    <div class="footer-copy">
+      <p>Copyright 2026 OHOHO festival.</p>
+    </div>
+</footer>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const scrollElements = document.querySelectorAll('.animate-left, .animate-right, .animate-up');
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('active');
+          }
+           else {
+          entry.target.classList.remove('active');
+        }
+        });
+      }, {
+        threshold: 0.3
+      });
+
+      scrollElements.forEach(el => observer.observe(el));
+    });
+    const hamburger = document.getElementById("hamburger");
+    const navLinks = document.getElementById("nav-linkovi");
+
+    hamburger.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+    });
+  </script>
+  </body>
+</html>
+
